@@ -43,8 +43,8 @@ pub mod classgroup;
 pub mod relationcls;
 
 // We need to perform modular multiplication modulo the input number.
-pub type Int = arith::I1024;
-pub type Uint = arith::U1024;
+pub type Int = arith::I256;
+pub type Uint = arith::U256;
 
 // Top-level functions
 use std::path::PathBuf;
